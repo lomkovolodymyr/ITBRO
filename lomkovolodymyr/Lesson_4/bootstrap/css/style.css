@@ -1,9 +1,9 @@
-body {
+/*body {
     width: 1300px;
     height: 850px;
     left: 0px;
     top: 0px;
-}
+}**/
 
 
 .content {
@@ -14,21 +14,36 @@ body {
     left: 0px;
     top: 0px;
     background-image: url(../images/background.png);
+    position: absolute;
+    width: 1300px;
+    height: 850px;
+    left: 196px;
+    top: 17px;
 }
 
 .container {
-position: absolute;
+display: flex;
+flex-direction: row;
+justify-content: center;
 font-family: 'Montserrat', sans-serif;
 color: rgb(96, 96, 110);
 font-weight: bold;
 text-transform: uppercase;
 line-height: 2.667;
 text-align: left;
-width: 1141px;
-height: 15px;
 left: 80px;
 top: 43px;
 z-index: 13;
 }
 
+.navbar-toggler {
+    display: flex;
+    justify-content: left;
+    margin-left: 800px;
+}
+/*
+.container {
+    display: flex;
+    justify-content: space-around;
+}
 
